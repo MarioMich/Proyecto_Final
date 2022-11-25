@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylejuego.css">
+        <title>Piedra | Papel | Tijerass</title>
+    </head>
+    <body>
+        <style>
+            .a1{
+                  display: block ;
+                  width: 50px;
+                  font-weight: 700;
+                  background-color: rgb(255, 255, 255);
+                  border-radius: 10px;
+                  padding: 15px 30px;
+                  margin: 100px 150px;
+                  color: rgb(0, 0, 0);
+                  text-decoration: none;
+                }
+                
+              </style>
+               <a class="a1"  href="index.html" target="_blank" >Pagina principal</a>
+        <h1>Piedra | Papel | Tijeras</h1>
+        <div id="campo-batalla" class="campo-batalla">
+            <div id="img-ataque-jugador" class="caja-batala"><!--<img class="img-batalla" src="assets/Papel.PNG" alt="">--></div>
+            <div class="caja-batala"><p class="text-mensajes">VS</p></div>
+            <div id="img-ataque-pc" class="caja-batala"><!--<img class="img-batalla" src="assets/Piedra.PNG" alt="">--></div>
+        </div>
+        <div>
+            <p id="msj-batalla" class="text-mensajes"> </p>
+        </div>
+        <h2>Elije un ataque</h2>
+        <div>
+            <img id="btn-piedra" class="btn-ataques" src="assets/Piedra.PNG" alt="">
+            <img id="btn-papel" class="btn-ataques" src="assets/Papel.PNG" alt="">
+            <img id="btn-tijeras" class="btn-ataques" src="assets/Tijeras.PNG" alt="">
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
